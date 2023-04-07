@@ -12,3 +12,7 @@ void merge(int left, int mid, int right) {
     for (int i = 0; i < n1; i++) {
         L[i] = rara[left + i];
     }
+
+    for (int SH = 0; SH < n2; SH++) {
+        R[SH] = rara[mid + 1 + SH];
+    }
