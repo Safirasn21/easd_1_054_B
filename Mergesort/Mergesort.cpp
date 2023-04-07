@@ -31,3 +31,9 @@ void merge(int left, int mid, int right) {
 
         k++;
     }
+
+    while (i < n1) {
+        rara[k] = L[i];
+        i++;
+        k++;
+    }
