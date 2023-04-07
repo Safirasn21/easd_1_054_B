@@ -8,3 +8,7 @@ void merge(int left, int mid, int right) {
     int n1 = mid - left + 1;
     int n2 = right - mid;
     int L[10], R[10];
+
+    for (int i = 0; i < n1; i++) {
+        L[i] = rara[left + i];
+    }
