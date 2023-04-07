@@ -49,3 +49,8 @@ void mergeSort(int left, int right) {
     if (left >= right) {
         return;
     }
+    int mid = left + (right - left) / 2;
+    mergeSort(left, mid);
+    mergeSort(mid + 1, right);
+    merge(left, mid, right);
+}
