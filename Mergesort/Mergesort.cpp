@@ -23,3 +23,8 @@ void merge(int left, int mid, int right) {
             rara[k] = L[i];
             i++;
         }
+
+        else {
+            rara[k] = R[SH];
+            SH++;
+        }
