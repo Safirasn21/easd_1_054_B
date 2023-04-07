@@ -37,3 +37,10 @@ void merge(int left, int mid, int right) {
         i++;
         k++;
     }
+
+    while (SH < n2) {
+        rara[k] = R[SH];
+        SH++;
+        k++;
+    }
+}
