@@ -70,3 +70,10 @@ void display() {
     }
     cout << endl;
 }
+
+int main() {
+    input();
+    mergeSort(0, MAX_SIZE - 1);
+    display();
+    return 0;
+}
