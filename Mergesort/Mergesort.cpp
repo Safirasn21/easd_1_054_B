@@ -77,3 +77,11 @@ int main() {
     display();
     return 0;
 }
+
+// karena dengan menggunakan algoritma kita dapat memaparkan kondisi awal, dan langkah yang harus dilekukan untuk mendapatkan hasil dengan cara yang logis.
+- because computer science is field of study that deals with solving a variety of problems by using computers, and to solve a the problem.U need to use algorithm
+// static dengan menggunakan array, dan dynamic menggunakan linked list
+// kecepatan mesin, bahsa pemograman, ukuran dari input, compiler, operating system.
+// quick sort, karena quick sort yang memiliki efisiensi kompleksitas waktu rata - rata paling tinggi diantara yang lain(membagi data menjadi dua bagian, kemudian mengurutkan bagian - bagian tersebut secara terpisah.)
+// quadratic: bubblesort, insertionsort
+// Longlinear : mergesort, quicksort
