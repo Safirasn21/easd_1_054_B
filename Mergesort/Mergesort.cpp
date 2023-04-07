@@ -54,3 +54,11 @@ void mergeSort(int left, int right) {
     mergeSort(mid + 1, right);
     merge(left, mid, right);
 }
+
+void input() {
+    cout << "Masukkan data sebanyak " << MAX_SIZE << ":\n";
+    for (int i = 0; i < MAX_SIZE; i++) {
+        cout << "Data ke-" << i + 1 << ": ";
+        cin >> rara[i];
+    }
+}
