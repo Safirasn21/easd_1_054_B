@@ -28,3 +28,6 @@ void merge(int left, int mid, int right) {
             rara[k] = R[SH];
             SH++;
         }
+
+        k++;
+    }
