@@ -16,3 +16,10 @@ void merge(int left, int mid, int right) {
     for (int SH = 0; SH < n2; SH++) {
         R[SH] = rara[mid + 1 + SH];
     }
+
+    int i = 0, SH = 0, k = left;
+    while (i < n1 && SH < n2) {
+        if (L[i] <= R[SH]) {
+            rara[k] = L[i];
+            i++;
+        }
