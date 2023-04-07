@@ -44,3 +44,8 @@ void merge(int left, int mid, int right) {
         k++;
     }
 }
+
+void mergeSort(int left, int right) {
+    if (left >= right) {
+        return;
+    }
