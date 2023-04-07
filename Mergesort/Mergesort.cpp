@@ -62,3 +62,11 @@ void input() {
         cin >> rara[i];
     }
 }
+
+void display() {
+    cout << "Data setelah diurutkan:\n";
+    for (int i = 0; i < MAX_SIZE; i++) {
+        cout << rara[i] << " ";
+    }
+    cout << endl;
+}
